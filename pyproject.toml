@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unstructured_grid_torch"
+version = "0.1.0"
+description = ""
+authors = ["jloveric <john.loverich@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "unstructured_grid_torch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
